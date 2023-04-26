@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: Josefin+Sans;
+}
+
+.bgimg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('Images/img1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 660px;
+  object-fit: cover;
+  background-position: center;
+
+}
+
+.headerset {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+ul li a {
+  font-family: 400;
+}
+
+.headerset h3 {
+  font-weight: 400;
+}
+
+.headerset h1 {
+  font-weight: 400;
+}
+
+.ourservice {
+  padding-top: 65px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.rowsetting {
+  margin: 65px 0px;
+}
+
+.rowsetting h4 {
+  margin-top: 15px;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.icon {
+  margin-top: 22px;
+
+}
+
+.rowsetting p {
+  color: rgb(83, 80, 80);
+}
+
+.rowtwo {
+  margin-top: 20px;
+}
+
+.portfolio {
+  height: 800px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+.ourteam {
+  height: 350px;
+  padding: 100px 0px 60px;
+  width: 100%;
+
+}
+
+.teamsetting {
+  margin-top: 70px;
+}
+
+.teamsetting h4 {
+  margin-top: 20px;
+}
+
+footer h6 {
+  font-weight: 400;
+  color: rgb(96, 95, 95);
+}
+
+.footer {
+  height: 50px;
+  margin-top: 300px;
+}
+
+/*///RESPONSIVE*/
+
+@media(min-width:992px) {
+  .headerset h3 {
+    font-weight: 400;
+    font-size: 35px;
+  }
+
+  .headerset h1 {
+    font-weight: 400;
+    font-size: 52px;
+  }
+
+  .ourservice {
+
+    height: 700px;
+
+  }
+
+  .portfolio {
+    height: 1500px;
+  }
+
+  .ourteam {
+    height: 600px;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .headerset h3 {
+    font-weight: 400;
+    font-size: 35px;
+  }
+
+  .headerset h1 {
+    font-weight: 400;
+    font-size: 52px;
+  }
+
+  .ourservice {
+
+    height: 900px;
+
+  }
+
+  .portfolio {
+    height: 1700px;
+  }
+
+  .ourteam {
+    height: 800px;
+  }
+}
+
+@media(min-width:575px) and (max-width:767px) {
+  .headerset h3 {
+    font-weight: 400;
+    font-size: 35px;
+  }
+
+  .headerset h1 {
+    font-weight: 400;
+    font-size: 52px;
+  }
+
+  .ourservice {
+
+    height: 1000px;
+
+  }
+
+  .portfolio {
+    height: 1900px;
+  }
+
+  .ourteam {
+    height: 900px;
+  }
+}
+
+@media(min-width: 460px) and (max-width: 574px) {
+  .headerset h3 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .headerset h1 {
+    font-weight: 400;
+    font-size: 49px;
+  }
+
+  .ourservice {
+
+    height: 1100px;
+
+  }
+
+  .portfolio {
+    height: 2000px;
+  }
+
+  .ourteam {
+    height: 1100px;
+  }
+}
+
+@media(max-width:479px) {
+
+  .headerset h3 {
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .headerset h1 {
+    font-weight: 400;
+    font-size: 42px;
+  }
+
+  .ourservice {
+
+    height: 1200px;
+
+  }
+
+  .portfolio {
+    height: 2200px;
+  }
+
+  .ourteam {
+    height: 1300px;
+  }
+}
